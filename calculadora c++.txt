@@ -1,1 +1,20 @@
 codigo de c++ para calculadora
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b;
+    int opcion;
+    bool salir = false;
+
+    cout << "Calculadora simple (solo iostream)\n";
+
+    while (!salir) {
+        cout << "\nElige una opcion:\n";
+        cout << "1) Sumar\n";
+        cout << "2) Restar\n";
+        cout << "3) Multiplicar\n";
+        cout << "4) Dividir\n";
+        cout << "5) Salir\n";
+        cout << "Opcion: ";
+        cin >> opcion;
