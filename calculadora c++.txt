@@ -18,3 +18,22 @@ int main() {
         cout << "5) Salir\n";
         cout << "Opcion: ";
         cin >> opcion;
+if (opcion == 5) {
+            salir = true;
+            cout << "Saliendo...\n";
+            continue;
+        }
+
+        cout << "Ingresa el primer numero: ";
+        cin >> a;
+        cout << "Ingresa el segundo numero: ";
+        cin >> b;
+
+        switch (opcion) {
+            case 1:
+                cout << "Resultado: " << a + b << "\n";
+                break;
+            case 2:
+                cout << "Resultado: " << a - b << "\n";
+                break;
+            case 3:
